@@ -5,101 +5,381 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital</title>
     <link rel="stylesheet" href="Navbar.css">
-    <link rel="stylesheet" href="Navbar.js" class="js">
 </head>
+
 <body>
+    <div class="top-main-container">
+        <div class="top-main">
+    
+            <div class="top">
+                <span id="top-img"><img src="https://www.aiims.edu/images/banners/aiims.png" alt="AIIMS NEW"
+                        style="width: 150px; height: 70px"></span>
+            </div>
+    
+            <div class="top-text-main">
+                <div class="top-text">
+                    <div class="custom">
+                        <span id="text">अखिल भारतीय आयुर्विज्ञान संस्थान, नई दिल्ली</span>
+                        <br>
+                        All India Institute Of Medical Sciences, New Delhi
+                    </div>
+                </div>
+            </div>
+            <div class="top-right-main">
+                <div class="top-right">
+                    <div class="help"><b>OPD Appointment</b></div>
+                    <div class="help"><b>Emergency Dashboard</b></div>
+                    <div class="help" style="color: red;"><b>ORBO Donor Pledge Form</b></div>
+                    <div class="help"><b>48th Convoaction 2023--Photos</b></div>
+                </div>
+    
+                <form action="">
+                    <div class="box-search">
+                        <input type="text" value="" placeholder="search somthing">
+                        <input type="button" value="Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
     <div class="navbar">
-    <nav class="navbar-content">
-        <ul class="navbar-list">
-            <li><a href="">Home</a></li>
-            <li>
-                <a href="">About Us</a>
-            </li>
-            <li>
-                <a href="">Departments &
-                Centers</a>
-            </li>
-            <li>
-                <a href="">Tenders</a>
-            </li>
-            <li>
-                <a href="">Appointments</a>
-            </li>
-            <li>
-                <a href="">Research</a>
-            </li>
-            <li>
-                <a href="">Library</a>
-            </li>
-            <li>
-                <a href="">Events</a>
-            </li>
-            <li>
-                <a href="">Notices</a>
-            </li>
-            <li>
-                <a href="">Resident's Corner</a>
-            </li>
-            <li>
-                <a href="">Academic Section</a>
-            </li>
-            <li>
-                <a href="">NIRF</a>
-            </li>
-            <li>
-                 <a href="">Attendence
-                Dashboard</a>
-            </li>
-            <li>
-                <a href="">Reservation
-                roaster</a> 
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Departments & Centers</a></li>
+                <li><a href="#">Tenders</a></li>
+                <li><a href="#">Appointments</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Notices</a></li>
+                <li><a href="#">Resident's Corner</a></li>
+                <li><a href="#">Academic Section</a></li>
+                <li><a href="#">NIRF</a></li>
+                <li><a href="#">Attendance Dashboard</a></li>
+                <li><a href="#">Reservation Roaster</a></li>
+            </ul>
+        </nav>
+    </div>
+<!-- Full-width images with number and caption text -->
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">1 / 4</div> -->
+        <img src="./Images/one.jpg" style="width:100%; height:400px">
+        <div class="text">Contribution</div>
     </div>
 
-    <!-- Full width image and Caption text -->
-
-    <div class="slideshow-container">
-        <div class="myslides fade">
-            <div class="numbertext">1/ 4</div>
-            <img src="./Images/one.jpg" alt="" style="width: 100%;">
-            <div class="text">Our Team</div>
-        </div>
-
-        <div class="myslides fade">
-            <div class="numbertext">2/
-                4</div>
-            <img src="./Images/Two.jpg" alt="" style="width: 100%;">
-            <div class="text">Our Group</div>
-        </div>
-
-        <div class="myslides fade">
-            <div class="numbertext">3/
-                4</div>
-            <img src="./Images/Three.jpg" alt="" style="width: 100%;">
-            <div class="text">Our Member</div>
-        </div>
-
-        <div class="myslides fade">
-            <div class="numbertext">4/
-                4</div>
-            <img src="./Images/Four.jpg" alt="" style="width: 100%;">
-            <div class="text">Our Location</div>
-        </div>
-
-        <!-- Next and Previous Button -->
-        <a class="prev" onclick="(-1)">&#10094;</a>
-        <a class="next" onclick="(1)">&#10095;</a>
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">2 / 4</div> -->
+        <img src="./Images/Two.jpg" style="width:100%; height:400px">
+        <div class="text">Inspiration</div>
     </div>
-    <br>
 
-    <!-- The Dot circle -->
-    <div style="text-align: center;">
-        <span class="dot" onclick="currentSlides(1)"></span>
-        <span class="dot" onclick="currentSlides(2)"></span>
-        <span class="dot" onclick="currentSlides(3)"></span>
-        <span class="dot" onclick="currentSlides(4)"></span>
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">3 / 4</div> -->
+        <img src="./Images/Three.jpg" style="width:100%; height:400px">
+        <div class="text">Development</div>
     </div>
+
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">4 / 4</div> -->
+        <img src="./Images/Four.jpg" style="width:100%; height:400px">
+        <div class="text">Donations</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <div class="dots">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</div>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<!-- Services Portal  -->
+<div class="container">
+    <div class="x1">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMTDxnMw_wHaA3iIKT6LW0QRCfCat-tg4qa5ZLvyrKRYA_tvAP"
+            alt=" Student" />
+        <p>
+            <a href="Faculty"> Faculty</a>
+        </p>
+    </div>
+
+    <div class="x1">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrf8L7d-cUhAjQbfQfPnn-RYG0QAMMg9HIT7IiRjBaca-AHxRK"
+            alt="" />
+        <p>
+            <a href="Patient"> Patient</a>
+        </p>
+    </div>
+    <div class="x1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztlvz_PswiY4Yu7FgA7IQc0nbr0OXw8kB_dTDWYCy3wionC6X"
+            alt="" />
+        <p>
+            <a href="Student"> Student</a>
+        </p>
+    </div>
+    <div class="x1">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQR63LgMY8yQvjAwmckSlFtBcJv7xsRM-oKclGIWE5I5yivfsCU"
+            alt="" />
+        <p>
+            <a href="Employee"> Employee</a>
+        </p>
+    </div>
+
+    <div class="x1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTONYp4J9zyjjevu95COhdbVG_KOodgkfR83seQGfmwc09N2lWo"
+            alt="" />
+        <p>
+            <a href="Vender"> Vender</a>
+        </p>
+    </div>
+    <div class="x1">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQR63LgMY8yQvjAwmckSlFtBcJv7xsRM-oKclGIWE5I5yivfsCU"
+            alt="" />
+        <p>
+            <a href="Visitor"> Visitor</a>
+        </p>
+    </div>
+</div>
+<br>
+<!-- Middle Part  -->
+<div class="part-main">
+    <div class="part1">
+        <p>Ministory of Health And Family Welfare</p>
+        <div class="grid-container">
+            <div class="grid-one">
+                <img src="/Navbar/Images/Neeraj.jpg" alt="" style="height: 150px; width: 120px;">
+            </div>
+            <div class="grid-one">
+                <img src="/Navbar/Images/Neeraj.jpg" alt="" style="height: 150px; width: 120px">
+            </div>
+            <div class="grid-one">
+                <img src="/Navbar/Images/Neeraj.jpg" alt="" style="height: 150px; width: 120px">
+            </div>
+            <div class="grid-two">
+                <p><span>Dr. Neeraj Sharma</span>
+                </p>
+                <br>
+                <br>
+                Ministory of Health And Family Welfare
+            </div>
+            <div class="grid-two">
+                <p><span>Prof. Rajneesh Gangwar</span></p>
+                <br>
+                <br>
+                <p><span>Hon'ble Minister of State</span></p>
+            </div>
+            <div class="grid-two">
+                <p><span>Dr. Alok Kumar</span>
+                </p>
+                <br>
+                <br>
+                <p><span>Hon'ble Minister of State</span></p>
+            </div>
+        </div>
+        <div class="grid-three">
+            <p class="director" style="color: black;">Director AIIMS</p>
+            <span><img class="image-align" src="/Navbar/Images/Neeraj.jpg" alt=""
+                    style="width: 180px; height: 220px;"></span>
+            <br>
+            Dr. Neeraj Aggarwal
+        </div>
+    </div>
+
+    <div class="part2" onclick="change()">
+        <div class="info">
+            <a href="">What's New</a>
+        </div>
+        <div class="info">
+            <a href="">INFORMATION RELATED TO COVID-19</a>
+        </div>
+        <div class="info">
+            <a href="">Patient Care</a>
+        </div>
+    </div>
+    <!-- ###  Part-3   ### -->
+    <div class="part3">
+        <div class="services" onclick="change()">
+            <a href="">AIIMS Channel</a>
+        </div>
+        <div class="services">
+            <a href="">Legacy of Excellence</a>
+        </div>
+        <div class="services">
+            <a href="">News</a>
+        </div>
+        <div class="services">
+            <a href="">EHS</a>
+        </div>
+    </div>
+</div>
+
+   
+<!-- Gallary Part -->
+
+<div class="container3">
+    <div class="container2">
+        <div class="owl-1"><a class="previous1">&#8249;</a></div>
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/806/mid_dsc5474.JPG" alt="">
+                <div class="title">Institute day</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/806/mid_dsc-0052-ch-1.jpg" alt="">
+                <div class="title">Important Event/Visits </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/806/mid_photo01.jpg" alt="">
+                <div class="title"> Vintage Photos</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/863/mid_dsc-8897.JPG" alt="">
+                <div class="title"> AIIMS Swachatta</div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/806/mid_aiims-entrance.JPG" alt=" ">
+                <div class="title">AIIMS at a Glance</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="bimg">
+                <img src="https://www.aiims.edu/images/com_fwgallery/files/806/mid_central-admission-and-railway-counter.JPG"
+                    alt=" ">
+                <div class="title"> AIIMS View
+                </div>
+            </div>
+        </div>
+        <div class="owl">
+            <div class="owl-2"><a class="next1">&#8250;</a></div>
+        </div>
+    </div>
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+</div>
+<br>
+<!-- ## Footer  ## -->
+<footer>
+    <div class="container6">
+        <section>
+            <h2 class="for1">
+                <span>Contect Us</span>
+            </h2>
+            <div class="part">
+                <p class="address">All India Institute of Medical Sciences</p>
+                <p class="address">Ansari Nagar, New Delhi - 110029</p>
+                <p class="phone">Board Number : +91-11-26588500 / 26588700</p>
+                <p class="phone">Fax : +91-11-26588663 / 26588641</p>
+                <p class="contact">
+                    <a href="index.php?option=com_content&view=article&id=964&Itemid=2297"> Important E-mail Addresses
+                        at AIIMS</a>
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2 class="for1">
+                <span> Important link </span>
+            </h2>
+            <div class="part4">
+                <div class="menu">
+                    <p><a href="/"><span>Citizen Charter</span></a></p>
+                    <p><a href="/"><span>AIIMS Onpne Donation</span></a></p>
+                    <p><a href="/"><span>AIIMS Offpne Donation</span></a></p>
+                    <p><a href="/"><span>Right To Information Act 2005</span></a></p>
+                    <p><a href="/"><span>Mission Delhi</span></a></p>
+                    <p><a href="/"><span> Mera Asptal</span></a></p>
+                    <p><a href="/"><span>MoHFW</span></a></p>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="for1">
+                <span> Other AIIMS</span>
+            </h2>
+            <div class="part5">
+                <div class="menu">
+                    <p><a href="/"><span> AIIMS Mumbai</span></a></p>
+                    <p><a href="/"><span>AIIMS Patna</span></a></p>
+                    <p><a href="/"><span>AIIMS Bhuvneswar </span></a></p>
+                    <p><a href="/"><span>AIIMS Delhi </span></a></p>
+                    <p><a href="/"><span>AIIMS Lucknow</span></a></p>
+                    <p><a href="/"><span>AIIMS Kolkatta </span></a></p>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="last">
+        <span>Copyright © AIIMS, New Delhi, All rights reserved.</span>
+        <a href="index.php?option=com_content&view=article&id=700&Itemid=1128" title="Disclaimer">Disclaimer<a
+                style="margin-left:30px" href="index.php?option=com_content&view=article&id=6921&Itemid=1128"
+                title="Disclaimer">Website Policy</a>
+            <a style="margin-left:30px" href="index.php?option=com_content&view=article&id=10515&catid=79"
+                title="Disclaimer">Privacy Policy for Mobile Apps</a>
+    </div>
+</footer>
+
+<!-- The dots/circles -->
+
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[ i ].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[ i ].className = dots[ i ].className.replace(" active", "");
+        }
+        slides[ slideIndex - 1 ].style.display = "block";
+        dots[ slideIndex - 1 ].className += " active";
+
+         function change() {
+            document.getElementsByClassName('services').style.Color = "red";
+            document.getElementsByClassName('info').style.Color = "red";
+        }
+    }
+</script>
+    
 </body>
+
 </html>
